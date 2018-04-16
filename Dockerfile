@@ -17,7 +17,8 @@ RUN set -xe \
     fontforge \
     mesa-dri-intel \
     mesa-gl \
-    ttf-dejavu
+    ttf-dejavu \
+    unifont
 
 # run as non privileged user
 USER fontforge
