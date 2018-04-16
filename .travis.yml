@@ -1,0 +1,12 @@
+sudo: required
+
+services:
+  - docker
+
+before_script:
+  - docker build -t maxmilton/fontforge .
+
+script:
+  - docker run -v $(pwd):/project --rm maxmilton/fontforge --version
+
+# TODO: Automatically trigger a new image on Docker hub or revoke image if failed
