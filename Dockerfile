@@ -1,4 +1,4 @@
-# Run the Chromium browser in a container
+# Run FontForge in a container
 #
 # Build image:
 #   docker build -t local/fontforge .
