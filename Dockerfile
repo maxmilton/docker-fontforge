@@ -7,7 +7,7 @@
 #   docker build --no-cache -t local/fontforge .
 #
 
-FROM alpine:edge@sha256:6fa3225360ea1a48aaee4ca87de66e8e12b9a4f749f37acc7b4b5b9cc3d91b13
+FROM alpine:edge@sha256:bceead3ed70699d49b11b3e53af792eddb37ebdb225d4977dabac0dc95646fb4
 
 RUN set -xe \
   && addgroup -g 7027 -S fontforge \
