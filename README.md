@@ -1,4 +1,6 @@
-<!-- markdownlint-disable first-line-h1 ol-prefix -->
+**DEPRECATED: Use the image from my `dockerfiles` repo instead: <https://github.com/MaxMilton/dockerfiles/tree/master/fontforge>**
+
+---
 
 [![Build Status](https://travis-ci.org/MaxMilton/docker-fontforge.svg?branch=master)](https://travis-ci.org/MaxMilton/docker-fontforge) [![Image version](https://images.microbadger.com/badges/version/maxmilton/fontforge.svg)](https://microbadger.com/images/maxmilton/fontforge) [![Image layers](https://images.microbadger.com/badges/image/maxmilton/fontforge.svg)](https://microbadger.com/images/maxmilton/fontforge)
 
